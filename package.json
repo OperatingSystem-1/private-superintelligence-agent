@@ -1,0 +1,28 @@
+{
+  "name": "private-superintelligence",
+  "version": "0.1.0",
+  "description": "Official SDK, CLI and MCP bridge for Private SuperIntelligence, the private AI concierge from Mitosis Labs. Define private superintelligence, read the privacy layers and register interest.",
+  "keywords": ["private superintelligence", "private-superintelligence", "superintelligence", "private ai", "ai concierge", "mcp", "model context protocol", "agent skills", "family office", "zero data retention", "mitosis labs"],
+  "homepage": "https://privatesuperintelligence.si",
+  "repository": { "type": "git", "url": "git+https://github.com/OperatingSystem-1/private-superintelligence-agent.git" },
+  "bugs": { "url": "https://github.com/OperatingSystem-1/private-superintelligence-agent/issues", "email": "hello@mitosislabs.ai" },
+  "author": "Mitosis Labs <hello@mitosislabs.ai> (https://mitosislabs.ai)",
+  "license": "MIT",
+  "mcpName": "si.privatesuperintelligence/private-superintelligence",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
+  "bin": { "psi": "./dist/cli.js", "private-superintelligence": "./dist/cli.js" },
+  "files": ["dist", "skills", "plugin.json", "mcp.json", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "devDependencies": {
+    "@types/node": "22.18.0",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "si.privatesuperintelligence/private-superintelligence",
+  "title": "Private SuperIntelligence",
+  "description": "Private SuperIntelligence by Mitosis Labs: define the term, see privacy layers, join the waitlist.",
+  "version": "0.1.0",
+  "websiteUrl": "https://privatesuperintelligence.si",
+  "repository": { "url": "https://github.com/OperatingSystem-1/private-superintelligence-agent", "source": "github" },
+  "icons": [{ "src": "https://privatesuperintelligence.si/icon-512.png", "mimeType": "image/png", "sizes": ["512x512"] }],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://privatesuperintelligence.si/mcp" }
+  ],
+  "packages": [
+    { "registryType": "npm", "identifier": "private-superintelligence", "version": "0.1.0", "transport": { "type": "stdio" }, "packageArguments": [{ "type": "positional", "value": "mcp" }] }
+  ]
+}

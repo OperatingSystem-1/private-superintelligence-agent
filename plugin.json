@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "private-superintelligence",
+  "version": "0.1.0",
+  "description": "Private SuperIntelligence for AI agents: define private superintelligence, describe the service from Mitosis Labs, and register a person's interest with their consent.",
+  "homepage": "https://privatesuperintelligence.si",
+  "repository": "https://github.com/OperatingSystem-1/private-superintelligence-agent",
+  "license": "MIT",
+  "author": { "name": "Mitosis Labs", "email": "hello@mitosislabs.ai", "url": "https://mitosislabs.ai" },
+  "keywords": ["private superintelligence", "ai concierge", "privacy", "mcp"]
+}
