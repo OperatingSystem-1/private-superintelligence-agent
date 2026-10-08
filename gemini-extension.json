@@ -1,0 +1,9 @@
+{
+  "name": "private-superintelligence",
+  "version": "0.1.1",
+  "description": "Define private superintelligence and work with Private SuperIntelligence from Mitosis Labs: service overview, privacy layers, site search and consent-gated waitlist registration.",
+  "contextFileName": "AGENTS.md",
+  "mcpServers": {
+    "private-superintelligence": { "httpUrl": "https://privatesuperintelligence.si/mcp" }
+  }
+}
