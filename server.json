@@ -3,7 +3,7 @@
   "name": "si.privatesuperintelligence/private-superintelligence",
   "title": "Private SuperIntelligence",
   "description": "Private SuperIntelligence by Mitosis Labs: define the term, see privacy layers, join the waitlist.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://privatesuperintelligence.si",
   "repository": {
     "url": "https://github.com/OperatingSystem-1/private-superintelligence-agent",
@@ -22,6 +22,22 @@
     {
       "type": "streamable-http",
       "url": "https://privatesuperintelligence.si/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "private-superintelligence",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [
+        {
+          "type": "positional",
+          "value": "mcp"
+        }
+      ]
     }
   ]
 }
