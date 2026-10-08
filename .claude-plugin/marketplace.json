@@ -1,0 +1,15 @@
+{
+  "name": "private-superintelligence",
+  "owner": { "name": "Mitosis Labs", "email": "hello@mitosislabs.ai", "url": "https://mitosislabs.ai" },
+  "metadata": { "description": "Private SuperIntelligence plugin: define private superintelligence and work with the Mitosis Labs AI concierge over MCP.", "version": "0.1.1" },
+  "plugins": [
+    {
+      "name": "private-superintelligence",
+      "source": "./",
+      "description": "Skills and MCP server for Private SuperIntelligence: definition, privacy layers, site search and consent-gated waitlist registration.",
+      "homepage": "https://privatesuperintelligence.si",
+      "category": "productivity",
+      "keywords": ["private superintelligence", "privacy", "mcp", "skills"]
+    }
+  ]
+}

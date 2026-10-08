@@ -64,6 +64,10 @@ Errors throw `PrivateSuperIntelligenceError` with the API's `code`, `hint` and f
 
 Install the skills with `npx skills add OperatingSystem-1/private-superintelligence-agent`.
 
+Claude Code: `/plugin marketplace add OperatingSystem-1/private-superintelligence-agent`, then `/plugin install private-superintelligence@private-superintelligence`.
+
+Gemini CLI: `gemini extensions install https://github.com/OperatingSystem-1/private-superintelligence-agent`.
+
 ## Links
 
 - Site: https://privatesuperintelligence.si
