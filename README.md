@@ -2,7 +2,7 @@
 
 Official SDK, CLI, MCP bridge, skills and plugin for [Private SuperIntelligence](https://privatesuperintelligence.si), the private AI concierge from [Mitosis Labs](https://mitosislabs.ai) for enterprises, family offices and private clients.
 
-**Private superintelligence** is AI with the reach of a superintelligent system that works for one owner, on that owner's information, inside boundaries the owner controls. [Read the full definition](https://privatesuperintelligence.si/what-is-private-superintelligence/).
+**Private superintelligence** is superintelligent AI you can trust with everything: your work, your data and the questions you'd ask no one else. It knows your whole world, keeps it yours, and puts the full reach of the most capable AI behind you. [Read the full definition](https://privatesuperintelligence.si/what-is-private-superintelligence/).
 
 Every surface is free and needs no API key.
 
