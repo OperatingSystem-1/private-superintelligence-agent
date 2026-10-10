@@ -2,9 +2,18 @@
   "name": "private-superintelligence",
   "version": "0.1.0",
   "description": "Define private superintelligence and work with Private SuperIntelligence from Mitosis Labs: service overview, privacy layers, site search and consent-gated waitlist registration.",
-  "author": { "name": "Mitosis Labs", "email": "hello@mitosislabs.ai", "url": "https://mitosislabs.ai" },
+  "author": {
+    "name": "Mitosis Labs",
+    "email": "hello@mitosislabs.ai",
+    "url": "https://mitosislabs.ai"
+  },
   "homepage": "https://privatesuperintelligence.si",
   "repository": "https://github.com/OperatingSystem-1/private-superintelligence-agent",
   "license": "MIT",
-  "keywords": ["private superintelligence", "mcp", "skills"]
+  "keywords": [
+    "private superintelligence",
+    "mcp",
+    "skills"
+  ],
+  "privacyPolicyUrl": "https://privatesuperintelligence.si/privacy/"
 }
